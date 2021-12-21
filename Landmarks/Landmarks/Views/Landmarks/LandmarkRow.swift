@@ -42,5 +42,6 @@ struct LandmarkRow_Previews: PreviewProvider {
 extension String {
     struct SystemImageName {
         static let starFill = "star.fill"
+        static let star = "star"
     }
 }
