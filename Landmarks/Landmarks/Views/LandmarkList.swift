@@ -27,9 +27,9 @@ struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
 //        let previewDevices: [String] = Device.allCases.map { $0.rawValue }
         let previewDevices: [String] = [
-            Device.iPhoneSE2.rawValue,
-            Device.iPhoneXSMax.rawValue
-        ]
+            Device.iPhoneSE2,
+            Device.iPhoneXsMax
+        ].map { $0.rawValue }
         
         ForEach(previewDevices, id: \.self) { deviceName in
             LandmarkList()
@@ -84,5 +84,4 @@ enum Device: String, CaseIterable {
     case iPadAir3 = "iPad Air (3rd generation)"
     case iPad8 = "iPad (8th generation)"
     case iPadAir4 = "iPad Air (4th generation)"
-    case iPhoneXSMax = "iPhone XS Max"
 }
