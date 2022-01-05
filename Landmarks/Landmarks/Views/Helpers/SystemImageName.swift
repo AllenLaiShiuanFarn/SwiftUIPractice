@@ -12,5 +12,6 @@ extension String {
         static let starFill = "star.fill"
         static let star = "star"
         static let listBullet = "list.bullet"
+        static let personCropCircle = "person.crop.circle"
     }
 }
