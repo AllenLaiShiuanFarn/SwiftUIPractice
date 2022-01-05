@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C935470E27858E59009A403D /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935470D27858E59009A403D /* CategoryRow.swift */; };
+		C935471027859315009A403D /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935470F27859315009A403D /* CategoryItem.swift */; };
 		C95A82B22771CA5600F7FFD7 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A82B12771CA5600F7FFD7 /* HexagonParameters.swift */; };
 		C95A82B42771CC0900F7FFD7 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A82B32771CC0900F7FFD7 /* BadgeBackground.swift */; };
 		C95A82B62771D34900F7FFD7 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A82B52771D34900F7FFD7 /* BadgeSymbol.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C935470D27858E59009A403D /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		C935470F27859315009A403D /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		C95A82B12771CA5600F7FFD7 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		C95A82B32771CC0900F7FFD7 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		C95A82B52771D34900F7FFD7 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
@@ -170,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				C99372F92784795800940578 /* CategoryHome.swift */,
+				C935470D27858E59009A403D /* CategoryRow.swift */,
+				C935470F27859315009A403D /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C935470E27858E59009A403D /* CategoryRow.swift in Sources */,
 				C97A83D5277078C60061E907 /* ContentView.swift in Sources */,
 				C99372FA2784795800940578 /* CategoryHome.swift in Sources */,
 				C95A82C62771DE8B00F7FFD7 /* HikeGraph.swift in Sources */,
@@ -274,6 +281,7 @@
 				C95A82C52771DE8B00F7FFD7 /* GraphCapsule.swift in Sources */,
 				C97A83D3277078C60061E907 /* LandmarksApp.swift in Sources */,
 				C9BD14C82771C50200900DC5 /* FavoriteButton.swift in Sources */,
+				C935471027859315009A403D /* CategoryItem.swift in Sources */,
 				C95A82C72771DE8B00F7FFD7 /* HikeDetail.swift in Sources */,
 				C95A82B22771CA5600F7FFD7 /* HexagonParameters.swift in Sources */,
 				C95A82BF2771DD2F00F7FFD7 /* Hike.swift in Sources */,
