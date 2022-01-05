@@ -38,10 +38,3 @@ struct LandmarkRow_Previews: PreviewProvider {
         .previewLayout(.fixed(width: 300, height: 70))
     }
 }
-
-extension String {
-    struct SystemImageName {
-        static let starFill = "star.fill"
-        static let star = "star"
-    }
-}
